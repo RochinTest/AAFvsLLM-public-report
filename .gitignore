@@ -1,0 +1,9 @@
+*
+!.gitignore
+!README.md
+!POSTMORTEM.md
+!PUBLICATION_SCOPE.md
+!CODE_ACCESS.md
+!NOTICE.md
+!.github/
+!.github/**

@@ -1,0 +1,47 @@
+name: Запрос доступа к исходному коду
+description: Запросить ручное рассмотрение доступа к приватному архиву AAFvsLLM
+title: "[Доступ к коду] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Запрос рассматривается владельцем вручную и не гарантирует доступ.
+        Не указывайте здесь персональные данные, пароли, токены или другую конфиденциальную информацию.
+  - type: input
+    id: github_username
+    attributes:
+      label: GitHub username
+      description: Аккаунт, для которого запрашивается доступ
+      placeholder: username
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Цель доступа
+      description: Кратко опишите исследовательскую или инженерную задачу
+    validations:
+      required: true
+  - type: textarea
+    id: components
+    attributes:
+      label: Нужные компоненты
+      description: Перечислите только необходимые части проекта
+    validations:
+      required: true
+  - type: textarea
+    id: intended_use
+    attributes:
+      label: Предполагаемое использование
+      description: Как будет использован результат просмотра
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Подтверждения
+      options:
+        - label: Я понимаю, что проект закрыт, не готов к production и доступ не гарантирован.
+          required: true
+        - label: Я не публиковал в запросе конфиденциальные данные.
+          required: true

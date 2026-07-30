@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Правила доступа
+    url: https://github.com/RochinTest/AAFvsLLM-public-report/blob/main/CODE_ACCESS.md
+    about: Прочитайте порядок рассмотрения запроса до создания issue
