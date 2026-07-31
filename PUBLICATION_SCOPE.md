@@ -13,6 +13,20 @@
 - небольшой автономный verifier только для открытых evidence-capsules;
 - порядок ручного запроса отдельных очищенных материалов.
 
+Публичные проверочные материалы доступны напрямую:
+
+- [verifier](verify_public_evidence.py);
+- [manifest](evidence/public/manifest.json);
+- [V3 integrity capsule](evidence/public/v3_integrity.json);
+- [conflict characterization capsule](evidence/public/conflict_characterization.json);
+- [plasticity/economics capsule](evidence/public/three_questions.json);
+- [nonexpressibility capsule](evidence/public/nonexpressibility.json);
+- [evidence ledger](docs/EVIDENCE_LEDGER.md).
+
+GitHub может скрывать часть файлов корня и вложенных каталогов за кнопкой
+**View all files**. Отсутствие файла на первом экране не означает, что он не
+опубликован; ссылки выше ведут к фактическим объектам в ветке `main`.
+
 ## Исключено
 
 - весь исходный код работающей системы;
