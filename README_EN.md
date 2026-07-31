@@ -10,11 +10,12 @@
 
 ## Name, author and scale
 
-**AAF** was the internal working name of the architecture. The project records
-do not contain one stable official English expansion, so this publication does
-not invent one retrospectively. `vsLLM` referred to testing an additional
-learning architecture beside a base language model, not to a comparison of two
-finished products.
+**AAF** stands for **Adaptive Associative Framework**. The name captured the
+intended design: the system was meant to adapt after evaluated experience,
+connect knowledge and behaviour through associated specialist components, and
+operate as an additional software framework rather than as one standalone
+neural network. `vsLLM` referred to testing this architecture beside a base
+language model, not to a comparison of two finished products.
 
 The project was led by **Alex Zak** under the GitHub account **RochinTest**. It
 was a solo research project using LLMs and Codex as analysis, programming and
