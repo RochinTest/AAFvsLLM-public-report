@@ -1,0 +1,280 @@
+{
+  "schema": "AAFPublicNonexpressibilityAuditV1",
+  "criterion": "A target is novel only if it is not expressible by admitted known operators or any fixed chain of known operations.",
+  "decision": {
+    "all_targets_expressible_as_fixed_known_chain": true,
+    "new_operation_interpretation": "rejected",
+    "nonexpressibility_requirement_met": false,
+    "synthesis_status": "not_supported"
+  },
+  "method": {
+    "fixed_domain_size": 64,
+    "full_domain_equivalence_checked": true,
+    "graph_shape_checked": true,
+    "membership_in_pre_enumerated_space_checked": true
+  },
+  "public_recomputation_boundary": {
+    "full_domain_equivalence_recomputable_from_public_capsule": false,
+    "full_domain_truth_tables_public": false,
+    "private_provenance_authenticated_by_public_capsule": false,
+    "structure_and_fixed_chain_membership_recomputable_from_public_rows": true
+  },
+  "program_space": {
+    "known_specialist_count": 3,
+    "maximum_chain_depth": 3,
+    "minimum_chain_depth": 1,
+    "pre_enumerated_program_count": 39,
+    "target_chain_depth": 3
+  },
+  "runtime_counts": {
+    "control_ablation_execution_or_invariance_processes": 396,
+    "independent_iid_task_claim_supported": false,
+    "semantic_target_induction_processes": 24,
+    "total_runtime_processes": 420,
+    "verifier_assertions_and_recomputations": 1040702
+  },
+  "sealing_and_isolation": {
+    "hidden_execution_before_reveal": true,
+    "os_denied_protected_writes": 0,
+    "prereveal_hidden_result_hash_committed_before_later_raw_manifest": false,
+    "protected_hashes_unchanged": true,
+    "protected_write_attempts": 0,
+    "sealed_target_count": 24,
+    "targets_committed_before_constructor": true,
+    "write_rejection_witness_present": false
+  },
+  "targets": {
+    "alias_definition": "S0, S1 and S2 are deterministic world-local aliases for the three frozen specialist identities; private identities are omitted.",
+    "allowed_aliases": [
+      "S0",
+      "S1",
+      "S2"
+    ],
+    "expressible_as_fixed_known_chain": 24,
+    "rows": [
+      {
+        "chain": [
+          "S0",
+          "S1",
+          "S2"
+        ],
+        "role": "primary",
+        "world": "world_00"
+      },
+      {
+        "chain": [
+          "S0",
+          "S2",
+          "S1"
+        ],
+        "role": "counterfactual",
+        "world": "world_00"
+      },
+      {
+        "chain": [
+          "S0",
+          "S2",
+          "S1"
+        ],
+        "role": "primary",
+        "world": "world_01"
+      },
+      {
+        "chain": [
+          "S1",
+          "S0",
+          "S2"
+        ],
+        "role": "counterfactual",
+        "world": "world_01"
+      },
+      {
+        "chain": [
+          "S1",
+          "S0",
+          "S2"
+        ],
+        "role": "primary",
+        "world": "world_02"
+      },
+      {
+        "chain": [
+          "S1",
+          "S2",
+          "S0"
+        ],
+        "role": "counterfactual",
+        "world": "world_02"
+      },
+      {
+        "chain": [
+          "S1",
+          "S2",
+          "S0"
+        ],
+        "role": "primary",
+        "world": "world_03"
+      },
+      {
+        "chain": [
+          "S2",
+          "S0",
+          "S1"
+        ],
+        "role": "counterfactual",
+        "world": "world_03"
+      },
+      {
+        "chain": [
+          "S2",
+          "S0",
+          "S1"
+        ],
+        "role": "primary",
+        "world": "world_04"
+      },
+      {
+        "chain": [
+          "S2",
+          "S1",
+          "S0"
+        ],
+        "role": "counterfactual",
+        "world": "world_04"
+      },
+      {
+        "chain": [
+          "S2",
+          "S1",
+          "S0"
+        ],
+        "role": "primary",
+        "world": "world_05"
+      },
+      {
+        "chain": [
+          "S0",
+          "S1",
+          "S2"
+        ],
+        "role": "counterfactual",
+        "world": "world_05"
+      },
+      {
+        "chain": [
+          "S0",
+          "S1",
+          "S2"
+        ],
+        "role": "primary",
+        "world": "world_06"
+      },
+      {
+        "chain": [
+          "S0",
+          "S2",
+          "S1"
+        ],
+        "role": "counterfactual",
+        "world": "world_06"
+      },
+      {
+        "chain": [
+          "S0",
+          "S2",
+          "S1"
+        ],
+        "role": "primary",
+        "world": "world_07"
+      },
+      {
+        "chain": [
+          "S1",
+          "S0",
+          "S2"
+        ],
+        "role": "counterfactual",
+        "world": "world_07"
+      },
+      {
+        "chain": [
+          "S1",
+          "S0",
+          "S2"
+        ],
+        "role": "primary",
+        "world": "world_08"
+      },
+      {
+        "chain": [
+          "S1",
+          "S2",
+          "S0"
+        ],
+        "role": "counterfactual",
+        "world": "world_08"
+      },
+      {
+        "chain": [
+          "S1",
+          "S2",
+          "S0"
+        ],
+        "role": "primary",
+        "world": "world_09"
+      },
+      {
+        "chain": [
+          "S2",
+          "S0",
+          "S1"
+        ],
+        "role": "counterfactual",
+        "world": "world_09"
+      },
+      {
+        "chain": [
+          "S2",
+          "S0",
+          "S1"
+        ],
+        "role": "primary",
+        "world": "world_10"
+      },
+      {
+        "chain": [
+          "S2",
+          "S1",
+          "S0"
+        ],
+        "role": "counterfactual",
+        "world": "world_10"
+      },
+      {
+        "chain": [
+          "S2",
+          "S1",
+          "S0"
+        ],
+        "role": "primary",
+        "world": "world_11"
+      },
+      {
+        "chain": [
+          "S0",
+          "S1",
+          "S2"
+        ],
+        "role": "counterfactual",
+        "world": "world_11"
+      }
+    ],
+    "total": 24
+  },
+  "worlds": {
+    "count": 12,
+    "family_count": 1,
+    "generation_seed_recorded": false,
+    "observation_order_randomized": false
+  }
+}

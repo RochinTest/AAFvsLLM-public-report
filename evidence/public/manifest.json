@@ -1,0 +1,10 @@
+{
+  "schema": "AAFPublicEvidenceManifestV1",
+  "files": {
+    "conflict_characterization.json": "502ff89ba51666435d791c045b64e30c0a3c7b8bc6815d77384d5ee587ebaf01",
+    "nonexpressibility.json": "337769db045067a9f58521b0baa2615f56e96cb2ae37595497dc09180c708bc0",
+    "three_questions.json": "c764e3a0a23de801260464ae51f9319eb8f034cf1f94622a149a7e5b9a4cdf12",
+    "v3_integrity.json": "a0a657f450cfc8e9de94b4a8a6032353c54b152e7b4e255b5f0fadb091424e72"
+  },
+  "boundary": "SHA-256 fixes the four sanitized public evidence capsules. It does not authenticate their private provenance or constitute independent replication."
+}

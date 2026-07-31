@@ -1,9 +1,16 @@
 *
 !.gitignore
 !README.md
+!README_EN.md
 !POSTMORTEM.md
 !PUBLICATION_SCOPE.md
 !CODE_ACCESS.md
+!REQUEST_ONLY_MATERIALS.md
 !NOTICE.md
+!verify_public_evidence.py
+!docs/
+!docs/**
+!evidence/
+!evidence/**
 !.github/
 !.github/**

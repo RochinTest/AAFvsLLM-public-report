@@ -1,0 +1,179 @@
+{
+  "architecture": {
+    "component_count": 10,
+    "fact_count": 72,
+    "relations": [
+      "author",
+      "capital",
+      "inventor"
+    ],
+    "specialists": [
+      {
+        "label": "A",
+        "relation": "author"
+      },
+      {
+        "label": "B",
+        "relation": "author"
+      },
+      {
+        "label": "C",
+        "relation": "inventor"
+      },
+      {
+        "label": "D",
+        "relation": "capital"
+      }
+    ]
+  },
+  "evidence_boundary": {
+    "autonomous_learning_claimed": false,
+    "current_production_conflict_safety_established": false,
+    "external_sealed_proof_available": false,
+    "general_intelligence_claimed": false,
+    "scope": "historical bounded engineering court and later package-integrity recovery",
+    "recomputable_from_public_rows": [
+      "ten component byte and SHA-256 comparisons",
+      "two guard SHA-256 comparisons and target counts",
+      "bounded-court aggregate arithmetic"
+    ],
+    "private_audit_aggregates_only": [
+      "328 bounded-court per-case outcomes",
+      "installed/reference manifest byte equality",
+      "registry payload byte equality"
+    ]
+  },
+  "historical_bounded_court": {
+    "baseline_preemptions": 0,
+    "false_applicability": 0,
+    "fresh_domain_cases": 24,
+    "historical_reported_status": "PASS",
+    "new_source_backed_answers": 24,
+    "prior_gap_traffic_cases": 304,
+    "sealed_cases": 328,
+    "unsupported_answers": 0
+  },
+  "integrity_recovery": {
+    "component_mismatches": 0,
+    "components": [
+      {
+        "role": "sealed_specialist_a",
+        "expected_bytes": 11264,
+        "actual_bytes": 11264,
+        "expected_sha256": "8f22f444cc71b37ab4b6784bc6435eeaecd7e9eb9ccf2db974576ac836eb86a0",
+        "actual_sha256": "8f22f444cc71b37ab4b6784bc6435eeaecd7e9eb9ccf2db974576ac836eb86a0"
+      },
+      {
+        "role": "sealed_specialist_b",
+        "expected_bytes": 11302,
+        "actual_bytes": 11302,
+        "expected_sha256": "ddd57a64cdbaf63f0528a21690055b35c67969e7748b8e00e0ede3054fce6c92",
+        "actual_sha256": "ddd57a64cdbaf63f0528a21690055b35c67969e7748b8e00e0ede3054fce6c92"
+      },
+      {
+        "role": "sealed_specialist_c",
+        "expected_bytes": 11374,
+        "actual_bytes": 11374,
+        "expected_sha256": "82122c47e37c917add739d546fbe80c74b5077a89da83f7c001a0c2a26864075",
+        "actual_sha256": "82122c47e37c917add739d546fbe80c74b5077a89da83f7c001a0c2a26864075"
+      },
+      {
+        "role": "sealed_specialist_d",
+        "expected_bytes": 11527,
+        "actual_bytes": 11527,
+        "expected_sha256": "46de8ec5296a203c5f92cd76352bcf510263ddf7b7c14adbcd795c5c43d07351",
+        "actual_sha256": "46de8ec5296a203c5f92cd76352bcf510263ddf7b7c14adbcd795c5c43d07351"
+      },
+      {
+        "role": "semantic_arbitration_contract",
+        "expected_bytes": 874,
+        "actual_bytes": 874,
+        "expected_sha256": "59bd8598deb6211c72a3981aeb13c1a7c9dd053ea7b9056e3ea0ac21d1b119e7",
+        "actual_sha256": "59bd8598deb6211c72a3981aeb13c1a7c9dd053ea7b9056e3ea0ac21d1b119e7"
+      },
+      {
+        "role": "versioned_canary_policy_v3",
+        "expected_bytes": 937,
+        "actual_bytes": 937,
+        "expected_sha256": "c07da594cfbd0dc347d9a9f8b75d107d38e35657ed759e94b8a6e3c992f903a9",
+        "actual_sha256": "c07da594cfbd0dc347d9a9f8b75d107d38e35657ed759e94b8a6e3c992f903a9"
+      },
+      {
+        "role": "multirelation_source_snapshot",
+        "expected_bytes": 55782,
+        "actual_bytes": 55782,
+        "expected_sha256": "ea39fa71b23e0fcc6ae64555964002d764cb8129e6606ddcfed900dea0b95433",
+        "actual_sha256": "ea39fa71b23e0fcc6ae64555964002d764cb8129e6606ddcfed900dea0b95433"
+      },
+      {
+        "role": "typed_interpreter_implementation",
+        "expected_bytes": 86086,
+        "actual_bytes": 86086,
+        "expected_sha256": "aa5331622257358127e3444b5f5ddaa26aaa40dc0f02bd36f7b435963cf47d0f",
+        "actual_sha256": "aa5331622257358127e3444b5f5ddaa26aaa40dc0f02bd36f7b435963cf47d0f"
+      },
+      {
+        "role": "route_runtime_implementation",
+        "expected_bytes": 780754,
+        "actual_bytes": 780754,
+        "expected_sha256": "690debbce2dc21abc349cae3406815309bbc479cf5f268d2fd7a7e87a0e4e3d8",
+        "actual_sha256": "690debbce2dc21abc349cae3406815309bbc479cf5f268d2fd7a7e87a0e4e3d8"
+      },
+      {
+        "role": "governed_promotion_contract",
+        "expected_bytes": 1749,
+        "actual_bytes": 1749,
+        "expected_sha256": "8f09dbf98eff209bb28ad4f2750cb9253d576f9706a824623462466e8a224050",
+        "actual_sha256": "8f09dbf98eff209bb28ad4f2750cb9253d576f9706a824623462466e8a224050"
+      }
+    ],
+    "components_compared": 10,
+    "guard_mismatches": 0,
+    "guards": [
+      {
+        "label": "guard_a",
+        "expected_sha256": "7f60c9e180c4f8a6c13361ab4b8c97cabc2d7dc1d92da9fa92420a10b8af448e",
+        "actual_sha256": "7f60c9e180c4f8a6c13361ab4b8c97cabc2d7dc1d92da9fa92420a10b8af448e",
+        "target_count": 12,
+        "target_mismatches": 0
+      },
+      {
+        "label": "guard_b",
+        "expected_sha256": "7f60c9e180c4f8a6c13361ab4b8c97cabc2d7dc1d92da9fa92420a10b8af448e",
+        "actual_sha256": "7f60c9e180c4f8a6c13361ab4b8c97cabc2d7dc1d92da9fa92420a10b8af448e",
+        "target_count": 12,
+        "target_mismatches": 0
+      }
+    ],
+    "guards_compared": 2,
+    "installed_equals_reference": true,
+    "installed_manifest_sha256": "9fad08d65492df7b641e84105829be78b58e35998c07f8e096ac935abd6bcd76",
+    "production_route_bytes": 780754,
+    "production_route_sha256": "690debbce2dc21abc349cae3406815309bbc479cf5f268d2fd7a7e87a0e4e3d8",
+    "registry_manifest_equals_reference": true,
+    "registry_release_payload_count": 1,
+    "restored_integrity_only": true
+  },
+  "lifecycle_witness": {
+    "default_enabled": false,
+    "final_state": "OFF",
+    "reapply_results_exact": true,
+    "rollback_domain_d_answer_count": 0,
+    "rollback_registry_exact": true,
+    "rollback_v2_package_unchanged": true
+  },
+  "release": {
+    "release_id_sha256": "fbd2f32b5313c1a5c2697abf4300bd2e9ee919fbee731d4bc58548af6e4bc198",
+    "rollback_release_id_sha256": "568f3a82e2000a60ee2eeb4fc86f3acca010a8abad27fd734239ec15d324b218",
+    "state": "retained_inactive",
+    "version": 3
+  },
+  "schema": "AAFPublicRetainedV3EvidenceV1",
+  "status": "bounded_result_preserved_with_integrity_restored",
+  "warnings": [
+    "The historical PASS applies only to its bounded court.",
+    "A later normal-runtime court observed a conflict leak outside that boundary.",
+    "Integrity recovery restored the preserved package; it did not repair conflict handling.",
+    "No claim of shared plasticity, novel operation synthesis, or production readiness follows."
+  ]
+}

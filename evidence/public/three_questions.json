@@ -1,0 +1,645 @@
+{
+  "schema": "AAFPublicThreeQuestionsV1",
+  "evidence_scope": "controlled_engineering_without_external_replication",
+  "questions": {
+    "economics": {
+      "actual_specialist_executions": {
+        "composite_route": 1848,
+        "parent_route": 1848,
+        "reduction": 0
+      },
+      "external_decisions": {
+        "composite_route": 1296,
+        "parent_route": 1848,
+        "reduction": 552
+      },
+      "fair_comparison_court_present": false,
+      "per_case_execution_rows_preserved": false,
+      "seed_rows": [
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 0,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 101
+        },
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 1,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 202
+        },
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 2,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 303
+        },
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 3,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 404
+        },
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 4,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 505
+        },
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 5,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 606
+        },
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 6,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 707
+        },
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 7,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 808
+        },
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 8,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 909
+        },
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 9,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 1001
+        },
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 10,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 1101
+        },
+        {
+          "composite_route": {
+            "external_decisions": 108,
+            "specialist_executions": 154
+          },
+          "index": 11,
+          "parent_route": {
+            "external_decisions": 154,
+            "specialist_executions": 154
+          },
+          "seed": 1201
+        }
+      ],
+      "seed_record_count": 12,
+      "status": "unknown"
+    },
+    "plasticity": {
+      "baseline_held_out": {
+        "cases": 36,
+        "correct": 21
+      },
+      "case_rows": [
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_01",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_02",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_03",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_04",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_05",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_06",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_07",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_08",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_09",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_10",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_11",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_12",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_13",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_14",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_15",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_16",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_17",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_18",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_19",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_20",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_21",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_22",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_23",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_24",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_25",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_26",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_27",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_28",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_29",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_30",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_31",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_32",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_33",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": true,
+          "case_id": "held_out_34",
+          "fresh_correct": true,
+          "post_correct": true,
+          "rollback_correct": true
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_35",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        },
+        {
+          "baseline_correct": false,
+          "case_id": "held_out_36",
+          "fresh_correct": false,
+          "post_correct": false,
+          "rollback_correct": false
+        }
+      ],
+      "changed_parameter_groups": 41,
+      "embedding_changed": false,
+      "fresh_process_held_out": {
+        "cases": 36,
+        "correct": 19
+      },
+      "held_out_change_percentage_points": -5.555555555555558,
+      "parameter_group_count": 47,
+      "parameter_rows": [
+        {
+          "changed": true,
+          "label": "controller_modules.0.center"
+        },
+        {
+          "changed": true,
+          "label": "controller_modules.0.w"
+        },
+        {
+          "changed": true,
+          "label": "controller_modules.1.center"
+        },
+        {
+          "changed": true,
+          "label": "controller_modules.1.w"
+        },
+        {
+          "changed": true,
+          "label": "controller_modules.2.center"
+        },
+        {
+          "changed": true,
+          "label": "controller_modules.2.w"
+        },
+        {
+          "changed": true,
+          "label": "controller_modules.3.center"
+        },
+        {
+          "changed": true,
+          "label": "controller_modules.3.w"
+        },
+        {
+          "changed": true,
+          "label": "controller_modules.4.center"
+        },
+        {
+          "changed": true,
+          "label": "controller_modules.4.w"
+        },
+        {
+          "changed": true,
+          "label": "controller_modules.5.center"
+        },
+        {
+          "changed": true,
+          "label": "controller_modules.5.w"
+        },
+        {
+          "changed": false,
+          "label": "embeddings"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.0.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.0.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.1.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.1.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.10.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.10.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.11.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.11.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.12.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.12.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.13.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.13.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.14.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.14.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.15.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.15.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.2.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.2.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.3.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.3.w"
+        },
+        {
+          "changed": false,
+          "label": "fact_modules.4.center"
+        },
+        {
+          "changed": false,
+          "label": "fact_modules.4.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.5.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.5.w"
+        },
+        {
+          "changed": false,
+          "label": "fact_modules.6.center"
+        },
+        {
+          "changed": false,
+          "label": "fact_modules.6.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.7.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.7.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.8.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.8.w"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.9.center"
+        },
+        {
+          "changed": true,
+          "label": "fact_modules.9.w"
+        },
+        {
+          "changed": false,
+          "label": "out_bias"
+        },
+        {
+          "changed": true,
+          "label": "out_proj"
+        }
+      ],
+      "representation_probe_present": false,
+      "rollback_held_out": {
+        "cases": 36,
+        "correct": 21
+      },
+      "shared_output_layer_changed": true,
+      "status": "not_supported"
+    },
+    "synthesis": {
+      "all_targets_expressible_as_fixed_known_chain": true,
+      "pre_enumerated_program_count": 39,
+      "status": "not_supported",
+      "target_ast_count": 24,
+      "target_asts_expressible": 24,
+      "world_count": 12
+    }
+  },
+  "source_packages": [
+    "aaf_three_open_questions_evidence_audit_v1",
+    "sealed_composite_program_nonexpressibility_audit_v1"
+  ]
+}

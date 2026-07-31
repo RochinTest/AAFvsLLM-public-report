@@ -1,5 +1,5 @@
-name: Запрос доступа к исходному коду
-description: Запросить ручное рассмотрение доступа к приватному архиву AAFvsLLM
+name: Запрос материалов и кода
+description: Запросить ручную подготовку очищенного пакета AAFvsLLM
 title: "[Доступ к коду] "
 body:
   - type: markdown
@@ -22,11 +22,22 @@ body:
       description: Кратко опишите исследовательскую или инженерную задачу
     validations:
       required: true
-  - type: textarea
+  - type: checkboxes
     id: components
     attributes:
-      label: Нужные компоненты
-      description: Перечислите только необходимые части проекта
+      label: Запрашиваемые пакеты
+      description: Отметьте только действительно необходимые материалы
+      options:
+        - label: Очищенный AAF Core — архитектурная реализация без сервера и Turbo-памяти
+        - label: Retained V3 — пакет и выбранные воспроизводящие материалы
+        - label: Conflict witnesses — обезличенные raw cases и verifier
+        - label: Plasticity witness — выбранные cases, checkpoint-метрики и harness
+        - label: Synthesis dataset — AST, candidate space и falsification-материалы
+  - type: textarea
+    id: custom_scope
+    attributes:
+      label: Точный объём
+      description: Укажите минимальный необходимый набор и причину
     validations:
       required: true
   - type: textarea

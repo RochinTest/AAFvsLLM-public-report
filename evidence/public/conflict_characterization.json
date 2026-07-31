@@ -1,0 +1,423 @@
+{
+  "candidate_experiments": [
+    {
+      "case_count": 36,
+      "conflict_abstains": 33,
+      "controls_answered": 3,
+      "public_recomputation": "summary_only_no_per_case_rows",
+      "installed": false,
+      "limitations": [
+        "retained V3 disabled",
+        "30 tested orders were unique but not balanced",
+        "not a production or retained-release court"
+      ],
+      "name": "isolated committed-knowledge candidate",
+      "status": "supported_not_release_ready"
+    },
+    {
+      "baseline_pairs": 4,
+      "case_count": 51,
+      "conflict_abstains": 33,
+      "public_recomputation": "summary_only_no_per_case_rows",
+      "installed": false,
+      "integrity_abstains": 6,
+      "limitations": [
+        "retained V3 disabled",
+        "claims from all runtime sources not aggregated",
+        "later retained ownership remained possible",
+        "broad regression court not run"
+      ],
+      "name": "hardened committed-knowledge candidate",
+      "status": "supported_not_release_ready"
+    },
+    {
+      "baseline_regressions": 0,
+      "case_count": 16,
+      "conflict_abstains": 2,
+      "public_recomputation": "summary_only_no_per_case_rows",
+      "installed": false,
+      "integrity_abstains": 2,
+      "limitations": [
+        "bounded court only",
+        "cross-source claim aggregation absent",
+        "whole changed runtime not bound by release identity",
+        "broad regression court not run"
+      ],
+      "name": "retained V3 terminal-abstain candidate",
+      "status": "isolated_candidate_supported_not_release"
+    }
+  ],
+  "evidence_boundary": {
+    "complete_frontend_claim_set_exposed": false,
+    "external_sealed_proof_available": false,
+    "lookup_call_counts_exposed": false,
+    "raw_per_case_inputs_outputs_recomputed_privately": true,
+    "scope": "observed ordinary-path committed-knowledge behavior",
+    "recomputable_from_public_rows": "35-case normal-runtime characterization",
+    "private_audit_aggregates_only": "three noninstalled candidate experiments"
+  },
+  "historical_bounded_fixture": {
+    "factual_calls": 0,
+    "note": "This specialist fixture did not cover the later committed-knowledge first-match path.",
+    "ownership": 0,
+    "reported_outcome": "ambiguous_non_owning"
+  },
+  "invalid_repair": {
+    "additional_conflict_classes": "declared_only",
+    "classification_revoked": true,
+    "permutation_claim": "declared_only",
+    "reason": "primary execution witnesses did not support the aggregate repair claims"
+  },
+  "normal_runtime_observation": {
+    "case_count": 35,
+    "evidence_errors": 0,
+    "families": [
+      {
+        "cases": 32,
+        "family": "same_slot_different_claim",
+        "observed": "conflict_leaked"
+      },
+      {
+        "cases": 1,
+        "family": "equal_claim_control",
+        "observed": "nonconflict_answer"
+      },
+      {
+        "cases": 2,
+        "family": "different_slot_control",
+        "observed": "nonconflict_answer"
+      }
+    ],
+    "protected_input_hash_differences": 0,
+    "rows": [
+      {
+        "case_id": "same_slot_different_claim_00",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_01",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_02",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_03",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_04",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_05",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_06",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_07",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_08",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_09",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_10",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_11",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_12",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_13",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_14",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_15",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_16",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_17",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_18",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_19",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_20",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_21",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_22",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_23",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_24",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_25",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_26",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_27",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_28",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_different_claim_29",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "three_equal_one_different",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 4,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_slot_equal_claim_different_sources",
+        "family": "equal_claim_control",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 1,
+        "conflict_present": false,
+        "answer_present": true,
+        "observed": "nonconflict_answer"
+      },
+      {
+        "case_id": "same_slot_different_claim_different_sources",
+        "family": "same_slot_different_claim",
+        "applicable_fact_count": 2,
+        "distinct_claim_count": 2,
+        "conflict_present": true,
+        "answer_present": true,
+        "observed": "conflict_leaked"
+      },
+      {
+        "case_id": "same_relation_different_entity_control",
+        "family": "different_slot_control",
+        "applicable_fact_count": 1,
+        "distinct_claim_count": 1,
+        "conflict_present": false,
+        "answer_present": true,
+        "observed": "nonconflict_answer"
+      },
+      {
+        "case_id": "same_entity_different_relation_control",
+        "family": "different_slot_control",
+        "applicable_fact_count": 1,
+        "distinct_claim_count": 1,
+        "conflict_present": false,
+        "answer_present": true,
+        "observed": "nonconflict_answer"
+      }
+    ],
+    "test_design_note": "Thirty primary rows varied identifiers, sources and two alternating orders; they were not 30 permutations of one fixed artifact multiset."
+  },
+  "observed_gap": {
+    "later_stage": "typed specialist shadow observation",
+    "ownership_stage": "committed-knowledge first-match decision",
+    "summary": "A matching committed fact could own the answer before the later specialist arbitration observation."
+  },
+  "production_status": {
+    "candidate_installed": false,
+    "conflict_safety": "partially_supported",
+    "retained_v3_integrity": "restored",
+    "production_wide_semantic_arbitration_established": false
+  },
+  "schema": "AAFPublicConflictCharacterizationV1"
+}
