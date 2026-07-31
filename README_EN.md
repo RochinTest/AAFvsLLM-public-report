@@ -8,6 +8,39 @@
 > **Access:** the research narrative and curated evidence are public; system
 > source and deeper reproduction bundles require a separate request
 
+## Name, author and scale
+
+**AAF** was the internal working name of the architecture. The project records
+do not contain one stable official English expansion, so this publication does
+not invent one retrospectively. `vsLLM` referred to testing an additional
+learning architecture beside a base language model, not to a comparison of two
+finished products.
+
+The project was led by **Alex Zak** under the GitHub account **RochinTest**. It
+was a solo research project using LLMs and Codex as analysis, programming and
+verification tools. The main cycle represented in the public timeline ran from
+March to July 2026.
+
+## What the system did operationally
+
+AAF was not one new neural network. It was a software layer around a base
+model:
+
+1. a normal request entered the baseline path;
+2. bounded specialists could propose a fact or a local action;
+3. an arbiter was expected to collect relevant claims, detect conflicts and
+   either select an answer or abstain;
+4. validated knowledge and modules were packaged as versioned retained units;
+5. Memory Core, registry, quarantine and rollback controlled their lifecycle;
+6. restart tests checked whether new behaviour persisted without breaking old
+   behaviour.
+
+A concrete example was source-backed fact lookup. An `author` specialist could
+propose the author of a book with provenance. If two incompatible claims
+applied to the same semantic slot, the runtime should abstain instead of
+returning the first claim. A later ordinary-runtime test found that this safety
+property did not hold in 32 conflict cases.
+
 ## Research question
 
 AAF asked whether a machine could improve after experience through local
@@ -41,18 +74,32 @@ The final synthesis control found that all 24 claimed target ASTs were fixed
 three-call chains already present in a pre-enumerated 39-program hypothesis
 space. The broader “new composition” claim was therefore revoked.
 
-## Public evidence
+## Public evidence available now
 
-The repository includes sanitized evidence capsules and a standard-library
-verifier:
+GitHub may collapse part of the repository tree behind **View all files**. The
+published evidence is linked directly here:
+
+- [standard-library verifier](verify_public_evidence.py);
+- [SHA-256 manifest](evidence/public/manifest.json);
+- [retained V3 integrity capsule](evidence/public/v3_integrity.json);
+- [conflict characterization capsule](evidence/public/conflict_characterization.json);
+- [plasticity and economics capsule](evidence/public/three_questions.json);
+- [nonexpressibility capsule](evidence/public/nonexpressibility.json);
+- [evidence ledger](docs/EVIDENCE_LEDGER.md).
 
 ```bash
+git clone https://github.com/RochinTest/AAFvsLLM-public-report.git
+cd AAFvsLLM-public-report
 python3 verify_public_evidence.py
 ```
 
+The verifier uses only the Python standard library. It recomputes the disclosed
+claims from the published capsules, but it is not a full independent
+replication of the private runtime or the complete raw archive.
+
 Start with the [Russian research dossier](README.md), the
-[evidence ledger](docs/EVIDENCE_LEDGER.md), and the
-[postmortem](POSTMORTEM.md).
+[evidence ledger](docs/EVIDENCE_LEDGER.md), the
+[glossary](docs/GLOSSARY.md), and the [postmortem](POSTMORTEM.md).
 
 System/server/Turbo-memory source, private sessions, old Git history and
 unreviewed third-party material are not public. Named sanitized research
